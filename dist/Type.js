@@ -5,7 +5,7 @@ var Type = /** @class */ (function () {
     }
     Type.isNullOrUndefined = function (obj) {
         var ref = obj;
-        return !(ref === 0 || ref);
+        return !(ref || ref === 0);
     };
     return Type;
 }());
