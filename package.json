@@ -1,6 +1,6 @@
 {
   "name": "ts-null-or-undefined",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Best type safe way to check null or undefined in typescript",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
