@@ -1,2 +1,2 @@
 import { ObjectUtil } from "./Type";
-export = { ObjectUtil };
+export { ObjectUtil };
