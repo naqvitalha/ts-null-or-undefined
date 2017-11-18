@@ -1,5 +1,4 @@
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 var Type_1 = require("./Type");
-exports.default = Type_1.default;
+module.exports = { ObjectUtil: Type_1.ObjectUtil };
 //# sourceMappingURL=index.js.map

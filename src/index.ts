@@ -1,2 +1,2 @@
-import Type from "./Type";
-export default Type;
+import { ObjectUtil } from "./Type";
+export = { ObjectUtil };

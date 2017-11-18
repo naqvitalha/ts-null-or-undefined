@@ -1,13 +1,13 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-var Type = /** @class */ (function () {
-    function Type() {
+var ObjectUtil = /** @class */ (function () {
+    function ObjectUtil() {
     }
-    Type.isNullOrUndefined = function (obj) {
+    ObjectUtil.isNullOrUndefined = function (obj) {
         var ref = obj;
         return !(ref || ref === 0);
     };
-    return Type;
+    return ObjectUtil;
 }());
-exports.default = Type;
+exports.ObjectUtil = ObjectUtil;
 //# sourceMappingURL=Type.js.map
