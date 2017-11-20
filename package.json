@@ -1,6 +1,6 @@
 {
-  "name": "ts-null-or-undefined",
-  "version": "0.0.5",
+  "name": "ts-object-utils",
+  "version": "0.0.1",
   "description": "Best type safe way to check null or undefined in typescript",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -11,12 +11,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/naqvitalha/ts-null-or-undefined.git"
+    "url": "git+https://github.com/naqvitalha/ts-object-utils.git"
   },
   "author": "naqvitalha <naqvitalha@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/naqvitalha/ts-null-or-undefined/issues"
+    "url": "https://github.com/naqvitalha/ts-object-utils/issues"
   },
-  "homepage": "https://github.com/naqvitalha/ts-null-or-undefined#readme"
+  "homepage": "https://github.com/naqvitalha/ts-object-utils#readme"
 }
