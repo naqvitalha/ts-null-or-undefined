@@ -1,4 +1,4 @@
-# ts-null-or-undefined
+# ts-object-utils
 Best way to check for null or undefined in typescript using a type guard.
 Can strip out null or undefine or complex types like T | null etc.
 
