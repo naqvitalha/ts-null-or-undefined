@@ -2,6 +2,8 @@
 Best way to check for null or undefined in typescript using a type guard. Other types also supported.
 Can strip out null or undefine or complex types like T | null etc.
 
+`npm install --save ts-object-utils`
+
 To use: 
 ```js
 import ObjectUtil from "ts-object-utils";
