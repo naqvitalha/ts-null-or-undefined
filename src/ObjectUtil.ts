@@ -1,7 +1,7 @@
 export class ObjectUtil {
     public static isNullOrUndefined<T>(obj: null | undefined | T): obj is null | undefined {
         const ref = obj as any;
-        return !(ref || ref === 0);
+        return !(ref || ref === 0 || ref === false);
     }
     public static isNull(obj: any): obj is null {
         return obj === null;
