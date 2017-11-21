@@ -1,3 +1,4 @@
 import { ObjectUtil } from "./ObjectUtil";
+import { Default } from "./Default";
 
-export { ObjectUtil };
+export { ObjectUtil, Default };

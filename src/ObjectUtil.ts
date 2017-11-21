@@ -1,10 +1,13 @@
 export class ObjectUtil {
-    public static isNullOrUndefined<T>(obj: number | null | undefined | T): obj is null | undefined {
+    public static isNullOrUndefined<T>(obj: null | undefined | T): obj is null | undefined {
         const ref = obj as any;
         return !(ref || ref === 0);
     }
     public static isNull(obj: any): obj is null {
-        return obj === "number";
+        return obj === null;
+    }
+    public static isUndefined(obj: any): obj is undefined {
+        return obj === undefined;
     }
     public static isNumber(obj: any): obj is number {
         return typeof obj === "number";
