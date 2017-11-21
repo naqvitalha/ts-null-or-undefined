@@ -1,6 +1,6 @@
 {
   "name": "ts-object-utils",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Best type safe way to check null or undefined in typescript",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
